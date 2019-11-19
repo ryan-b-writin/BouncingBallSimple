@@ -1,9 +1,14 @@
 package game;
 
-public class BouncingBallSimple {
+import java.awt.*;
+import java.util.Formatter;
+import javax.swing.*;
+
+
+public class BouncingBallSimple extends JPanel {
 
 	public static void main(String[] args) {
-		System.out.println("testing new laptop & workspace.");
+	
 	}
 
 }
