@@ -8,15 +8,15 @@ import javax.swing.*;
 public class BouncingBallSimple extends JPanel {
 	
 	// Container box's width and height  
-	private static final int BOX_WIDTH = 640;  
-	private static final int BOX_HEIGHT = 480;  
+	private static final int BOX_WIDTH = 900;  
+	private static final int BOX_HEIGHT = 600;  
 	
 	// Ball's properties  
-	private float ballRadius = 200; // Ball's radius  
+	private float ballRadius = 10; // Ball's radius  
 	private float ballX = ballRadius + 50; // Ball's center (x, y)  
 	private float ballY = ballRadius + 20; 
-	private float ballSpeedX = 3; // Ball's speed for x and y  
-	private float ballSpeedY = 2;  
+	private float ballSpeedX = 10; // Ball's speed for x and y  
+	private float ballSpeedY = 8;  
 	private static final int UPDATE_RATE = 30; // Number of refresh per second  
 	
 	/** Constructor to create the UI components and init game objects. */ 
